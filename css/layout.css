@@ -321,7 +321,6 @@ fieldset[disabled] .btn-theme {
 
 .promo-block .promo-block-title {
   font-size: 70px;
-  color: #fff;
   line-height: 1;
 }
 
@@ -332,12 +331,10 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-block .promo-block-text {
-  font-size: 25px;
-  color: #fff;
+	font-size: 25px;
 }
 
 .promo-block .promo-block-divider {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   padding-bottom: 20px;
   margin-bottom: 35px;
 }
@@ -684,7 +681,7 @@ fieldset[disabled] .btn-theme {
   font-size: 13px;
   font-weight: 600;
   font-family: Hind, sans-serif;
-  color: #fff;
+  color: #515769;
   text-transform: uppercase;
   line-height: 55px;
   padding: 20px;
@@ -1525,8 +1522,9 @@ fieldset[disabled] .btn-theme {
 	font-weight: inherit;
 }
 
-#about{
-  padding: 100px 0;
+#about {
+	padding: 100px 0;
+	background: #f0f0f0;
 }
 
 #Skills{
@@ -1549,5 +1547,13 @@ fieldset[disabled] .btn-theme {
 	line-height: 30px;
 	font-size: 16px;
 	color: #555;
+}
+
+.parallax-slider {
+	top: -130px !important;
+	/* height: 100% !important; */
+	width: auto !important;
+	right: 0 !important;
+	left: auto !important;
 }
 
